@@ -14,14 +14,14 @@ The historical data is sourced from a peer-to-peer lending services company.
 
 Historical data, and features include:
 
-        - Loan size
-        - Interest rates
-        - Borrower income
-        - Debt to income ratio
-        - Number of accounts
-        - Derogatory remarks
-        - Total debt
-        - Loan status
+        - `Loan size`
+        - `Interest rates`
+        - `Borrower income`
+        - `Debt to income ratio`
+        - `Number of accounts`
+        - `Derogatory remarks`
+        - `Total debt`
+        - `Loan status`
 
 Furthermore, the `loan_status` column will be used as the `target`, and the remaining columns will be identified as `features` in this supervised `machine_learning` prediction model.
 
