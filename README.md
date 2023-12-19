@@ -8,11 +8,27 @@ Github repository at: https://github.com/RyanLJames1997/Credit-Risk-Classificati
 
 ## Scope
 
-In this challenge, a data scientist, we are to create and manipulate Pandas Dataframes to analyse [school] and [standard_test] data.
+In this challenge, as a data analyst, a variety of techniques will be implemented to train and evaluate a model based on [loan risk] based on a historical lending dataset. 
+
+The historical data is sourced from a peer-to-peer lending services company.
+
+Historical data, and features include:
+    - Loan size
+    - Interest rates
+    - Borrower income
+    - Debt to income ratio
+    - Number of accounts
+    - Derogatory remarks
+    - Total debt
+    - Loan status
+    
+ - Furthermore, the ['loan_status'] column will be used as the ['target']. The target column has 77526 total rows with 75036 labelled as ['healthy loans'] (0) and 2500 labelled as ['high-risk loans'].
+    
+ - The remaining columns will be identified as ['features'] in this supervised ['machine_learning'] prediction model.
 
 ### Goal
 
-The overall goal of this analysis is to aggregate the provided data to identify trends in school performance across a [Local_Government_Area].
+The overall goal of this analysis is to see if we can predict whether a credit loan is ['healthy'] or ['high-risk'] using the logistic regression method.
 
 ### Dataset
 
