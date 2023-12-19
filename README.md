@@ -8,23 +8,23 @@ Github repository at: https://github.com/RyanLJames1997/Credit-Risk-Classificati
 
 ## Scope
 
-In this challenge, as a data analyst, a variety of techniques will be implemented to train and evaluate a model based on [loan risk] based on a historical lending dataset. 
+In this challenge, as a data analyst, a variety of techniques will be implemented to train and evaluate a model based on `loan risk` based on a historical lending dataset. 
 
 The historical data is sourced from a peer-to-peer lending services company.
 
 Historical data, and features include:
-    - Loan size
-    - Interest rates
-    - Borrower income
-    - Debt to income ratio
-    - Number of accounts
-    - Derogatory remarks
-    - Total debt
-    - Loan status
+        - Loan size
+        - Interest rates
+        - Borrower income
+        - Debt to income ratio
+        - Number of accounts
+        - Derogatory remarks
+        - Total debt
+        - Loan status
     
- - Furthermore, the ['loan_status'] column will be used as the ['target']. The target column has 77526 total rows with 75036 labelled as ['healthy loans'] (0) and 2500 labelled as ['high-risk loans'].
+ - Furthermore, the `loan_status` column will be used as the `target`. The target column has 77526 total rows with 75036 labelled as `healthy loans` (0) and 2500 labelled as `high-risk loans`.
     
- - The remaining columns will be identified as ['features'] in this supervised ['machine_learning'] prediction model.
+ - The remaining columns will be identified as `features` in this supervised `machine_learning` prediction model.
 
 ### Goal
 
