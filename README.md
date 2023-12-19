@@ -22,13 +22,17 @@ Historical data, and features include:
         - Total debt
         - Loan status
     
- - Furthermore, the `loan_status` column will be used as the `target`. The target column has 77526 total rows with 75036 labelled as `healthy loans` (0) and 2500 labelled as `high-risk loans`.
-    
- - The remaining columns will be identified as `features` in this supervised `machine_learning` prediction model.
+ - Furthermore, the `loan_status` column will be used as the `target`, and the remaining columns will be identified as `features` in this supervised `machine_learning` prediction model.
 
 ### Goal
 
-The overall goal of this analysis is to see if we can predict whether a credit loan is ['healthy'] or ['high-risk'] using the logistic regression method.
+The overall goal of this analysis is to see if we can predict whether a credit loan is `healthy` or `high-risk` using the logistic regression method. 
+
+### Repository Structure
+
+- The root directory that contains the source code is:
+
+- The [`Resources`[( directory contains the raw dataset used in the model 
 
 ### Dataset
 
