@@ -62,3 +62,11 @@ The **Logistic Regression Model** output yielded the following results:
 | macro avg       | 0.94      | 0.94   | 0.94     | 19384   |
 | weighted avg    | 0.99      | 0.99   | 0.99     | 19384   |
 
+Through observation of the models yeilded results, it was able to predict both the `healthy (0)` and `high-risk (1)`labels with 99% accuracy score.
+
+- `healthy loan (0)`: The F1-score had a computed value of 100%, as both the **precision** and **recall** values were also at 100%.
+
+- `high-risk loan (1)`: The F1-score had a computed value of 88%. This was slightly less accurate, as both the **precision** and **recall** were 87% and 89% respectably. This lower accuracy level is likely due to fewer records in relation to the sample size, as the `high-risk loan (1)` label had 2,500 records in comparison to the `healthy loan (0)` label with 75,036 records.
+
+## Summary
+
