@@ -57,8 +57,8 @@ The **Logistic Regression Model** output yielded the following results:
 
 | Class           | Precision | Recall | F1-Score | Support |
 |-----------------|-----------|--------|----------|---------|
-| healthy loan    | 1.00      | 0.99   | 1.00     | 18765   |
-| high-risk loan  | 0.85      | 0.91   | 0.88     | 619     |
+| healthy loan    | 1.00      | 1.00   | 1.00     | 18765   |
+| high-risk loan  | 0.87      | 0.89   | 0.88     | 619     |
 | accuracy        |           |        | 0.99     | 19384   |
-| macro avg       | 0.92      | 0.95   | 0.94     | 19384   |
+| macro avg       | 0.94      | 0.94   | 0.94     | 19384   |
 | weighted avg    | 0.99      | 0.99   | 0.99     | 19384   |
