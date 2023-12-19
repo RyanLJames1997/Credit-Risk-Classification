@@ -32,7 +32,7 @@ The overall goal of this analysis is to see if we can predict whether a credit l
 
 - The root directory that contains the source code is:
 
-- The [`Resources`[( directory contains the raw dataset used in the model 
+- The [`Resources`[(https://github.com/RyanLJames1997/Credit-Risk-Classification/blob/main/Starter_Code/Resources/lending_data.csv) directory contains the raw dataset used in the model 
 
 ### Dataset
 
