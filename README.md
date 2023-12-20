@@ -82,3 +82,6 @@ There was an inbalance across the dataset which likely skewed the overall accura
 Lastly, the model was only tested based on the `otiginal data` - thus, did not factor any `null_values`. An additional reccomendation would be to `scale` the data to see if this improves overall accuracy of the model. However, the overall high accuracy and optimised tradeoff between these two labels to strong. 
 
 ## References
+- Coding and terminology was derived from **Bootcamp Week 5**
+- **Chat GPT**
+- `Imbalanced Data` from developers.google.com: https://developers.google.com/machine-learning/data-prep/construct/sampling-splitting/imbalanced-data
