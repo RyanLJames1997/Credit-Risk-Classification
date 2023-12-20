@@ -13,6 +13,7 @@ In this challenge, as a data analyst, a variety of techniques will be implemente
 The historical data is sourced from a peer-to-peer lending services company.
 
 - Historical data, and features include:
+  
         - Loan size
         - Interest rates
         - Borrower income
