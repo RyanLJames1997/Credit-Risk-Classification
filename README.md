@@ -80,3 +80,5 @@ There was an inbalance across the dataset which likely skewed the overall accura
     - Yeild faster convergence across the model and upweighting with ensure the model is still functional and callibrated correctly.
   
 Lastly, the model was only tested based on the `otiginal data` - thus, did not factor any `null_values`. An additional reccomendation would be to `scale` the data to see if this improves overall accuracy of the model. However, the overall high accuracy and optimised tradeoff between these two labels to strong. 
+
+## References
