@@ -26,7 +26,7 @@ Furthermore, the `loan_status` column will be used as the `target`, and the rema
 
 ### Goal
 
-The overall goal of this analysis is to see if we can predict whether a credit loan is `healthy` or `high-risk` using the logistic regression method. 
+The overall goal of this analysis is to see if we can predict whether a credit loan is `healthy` or `high-risk` using the **logistic regression** method. 
 
 ### Repository Structure
 
@@ -69,4 +69,9 @@ Through observation of the models yeilded results, it was able to predict both t
 - `high-risk loan (1)`: The F1-score had a computed value of 88%. This was slightly less accurate, as both the **precision** and **recall** were 87% and 89% respectably. This lower accuracy level is likely due to fewer records in relation to the sample size, as the `high-risk loan (1)` label had 2,500 records in comparison to the `healthy loan (0)` label with 75,036 records.
 
 ## Summary
-
+In conclusion, the **Logistic Regression** model was able to demonstrate an overall accuracy level of 99% when looking at the labels of `healthy loans (0)` and `high-risk loans (1)`. 
+There was an inbalance across the dataset which likely skewed the overall accuracy in favour off the `Healthy loans (0)` with a much greater number of records. Due to the high skewness of the classes, the minority class is a **moderate** degree of imbalance - thus, the training model will spend more time assessing on the majority class. Furthermore, a deeper way to handle this imbalanced data is to downsample and upweight the downsampled class (`Risky loans loans (1)`). 
+- Downsampling: infers data analysts to train the data set by a key factor to improve the overall balance and skew the results closer together.
+- Upweight the downsampled class: Increase the overall weighting of the inferrior class. This will add additional parameters to the neural network. This in essence will:
+          - Yeild faster convergence across the model and upweighting with ensure the model is still functional and callibrated correctly.
+Lastly, the model was only tested based on the `otiginal data` - thus, did not factor any `null_values`. An additional reccomendation would be to `scale` the data to see if this improves overall accuracy of the model. However, the overall high accuracy and optimised tradeoff between these two labels to strong. 
