@@ -71,7 +71,7 @@ Through observation of the models yeilded results, it was able to predict both t
 ## Summary
 In conclusion, the **Logistic Regression** model was able to demonstrate an overall accuracy level of 99% when looking at the labels of `healthy loans (0)` and `high-risk loans (1)`. 
 
-There was an inbalance across the dataset which likely skewed the overall accuracy in favour off the `Healthy loans (0)` with a much greater number of records. Due to the high skewness of the classes, the minority class is a **moderate** degree of imbalance - thus, the training model will spend more time assessing on the majority class. Furthermore, a deeper way to handle this imbalanced data is to downsample and upweight the downsampled class (`Risky loans loans (1)`).
+There was an inbalance across the dataset which likely skewed the overall accuracy in favour off the `Healthy loans (0)` with a much greater number of records. Due to the high skewness of the classes, the minority class is a **moderate** degree of imbalance - thus, the training model will spend more time assessing on the majority class. Furthermore, a deeper way to handle this imbalanced data is to downsample and upweight the downsampled class `Risky loans loans (1)`.
 
 - Downsampling: infers data analysts to train the data set by a key factor to improve the overall balance and skew the results closer together.
 - Upweight the downsampled class: Increase the overall weighting of the inferrior class. This will add additional parameters to the neural network. This in essence will:
