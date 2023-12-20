@@ -75,7 +75,7 @@ There was an inbalance across the dataset which likely skewed the overall accura
 
 - Downsampling: infers data analysts to train the data set by a key factor to improve the overall balance and skew the results closer together.
 - Upweight the downsampled class: Increase the overall weighting of the inferrior class. This will add additional parameters to the neural network. This in essence will:
-
-          - Yeild faster convergence across the model and upweighting with ensure the model is still functional and callibrated correctly.
+  
+    - Yeild faster convergence across the model and upweighting with ensure the model is still functional and callibrated correctly.
   
 Lastly, the model was only tested based on the `otiginal data` - thus, did not factor any `null_values`. An additional reccomendation would be to `scale` the data to see if this improves overall accuracy of the model. However, the overall high accuracy and optimised tradeoff between these two labels to strong. 
